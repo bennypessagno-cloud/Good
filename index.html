@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>Good</title>
+</head>
+<body>
+<main>
+<header><div><h1>Good</h1><p id="today"></p></div><div class="streak">🔥 <b id="streak">0</b><small>day streak</small></div></header>
+<section class="card"><div class="row"><b>Today's progress</b><span id="count">0 / 0</span></div><div class="bar"><i id="bar"></i></div><p id="message">Add your first task.</p></section>
+<section class="card"><div id="tasks"></div></section>
+<form id="add" class="card add"><input id="input" maxlength="80" placeholder="Add a task..." autocomplete="off"><button>+</button></form>
+<section class="stats card"><div><b id="longest">0</b><small>Longest streak</small></div><div><b id="days">0</b><small>Completed days</small></div></section>
+<section class="card"><h2>Recent history</h2><div id="history"></div></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
